@@ -45,7 +45,7 @@ namespace LAB0_2530019_1203819.Models.Data
             {
                 for (int j = i + 1; j < copyLastName.Count; j++)
                 {
-                    if (copyLastName[i].Name.CompareTo(copyLastName[j].Name) > 0)
+                    if (copyLastName[i].LastName.CompareTo(copyLastName[j].LastName) > 0)
                     {
                         ClientModel tmp = copyLastName[i];
                         copyLastName[i] = copyLastName[j];
